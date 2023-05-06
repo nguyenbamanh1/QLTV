@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_tailieu"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Tài Liệu" />
+        <item
+            android:id="@+id/nav_theloai"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Thể loại" />
+        <item
+            android:id="@+id/nav_tacgia"
+            android:title="Tác Giả" />
+        <item
+            android:id="@+id/nav_nxb"
+            android:title="Nhà Xuất Bản" />
+        <item
+            android:id="@+id/nav_thuthu"
+            android:title="Thủ Thư" />
+        <item
+            android:id="@+id/nav_docgia"
+            android:title="Độc Giả" />
+        <item
+            android:id="@+id/nav_khoa"
+            android:title="Khoa" />
+        <item
+            android:id="@+id/nav_lop"
+            android:title="Lớp" />
+        <item
+            android:id="@+id/nav_thedangky"
+            android:title="Thẻ Đăng Ký" />
+        <item
+            android:id="@+id/nav_phieumuon"
+            android:title="Phiếu Mượn" />
+        <item
+            android:id="@+id/nav_vipham"
+            android:title="Vi Phạm" />
+        <item
+            android:id="@+id/nav_taikhoan"
+            android:title="Tài Khoản" />
+    </group>
+</menu>

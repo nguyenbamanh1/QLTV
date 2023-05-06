@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.manhhdc.qltk.fragment_home"
+        android:label="Trang Chủ"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_docgia"
+        android:name="com.manhhdc.qltk.fragment_docgia"
+        android:label="Độc Giả"
+        tools:layout="@layout/fragment_docgia" />
+    <fragment
+        android:id="@+id/nav_khoa"
+        android:name="com.manhhdc.qltk.fragment_khoa"
+        android:label="Khoa"
+        tools:layout="@layout/fragment_khoa" />
+    <fragment
+        android:id="@+id/nav_lop"
+        android:name="com.manhhdc.qltk.fragment_lop"
+        android:label="Lớp"
+        tools:layout="@layout/fragment_lop" />
+    <fragment
+        android:id="@+id/nav_nxb"
+        android:name="com.manhhdc.qltk.fragment_nxb"
+        android:label="Nhà Xuất Bản"
+        tools:layout="@layout/fragment_nxb" />
+    <fragment
+        android:id="@+id/nav_phieumuon"
+        android:name="com.manhhdc.qltk.fragment_phieumuon"
+        android:label="Phiếu Mượn"
+        tools:layout="@layout/fragment_phieumuon" />
+    <fragment
+        android:id="@+id/nav_tacgia"
+        android:name="com.manhhdc.qltk.fragment_tacgia"
+        android:label="Tác Giả"
+        tools:layout="@layout/fragment_tacgia" />
+    <fragment
+        android:id="@+id/nav_taikhoan"
+        android:name="com.manhhdc.qltk.fragment_taikhoen"
+        android:label="Tài Khoản"
+        tools:layout="@layout/fragment_taikhoen" />
+    <fragment
+        android:id="@+id/nav_tailieu"
+        android:name="com.manhhdc.qltk.fragment_tailieu"
+        android:label="Tài Liệu"
+        tools:layout="@layout/fragment_tailieu" />
+    <fragment
+        android:id="@+id/nav_thedangky"
+        android:name="com.manhhdc.qltk.fragment_thedangky"
+        android:label="Thẻ Đăng Ký"
+        tools:layout="@layout/fragment_thedangky" />
+    <fragment
+        android:id="@+id/nav_theloai"
+        android:name="com.manhhdc.qltk.fragment_theloai"
+        android:label="Thể Loại"
+        tools:layout="@layout/fragment_theloai" />
+    <fragment
+        android:id="@+id/nav_thuthu"
+        android:name="com.manhhdc.qltk.fragment_thuthu"
+        android:label="Thủ Thư"
+        tools:layout="@layout/fragment_thuthu" />
+    <fragment
+        android:id="@+id/nav_vipham"
+        android:name="com.manhhdc.qltk.fragment_vipham"
+        android:label="Vi Phạm"
+        tools:layout="@layout/fragment_vipham" />
+</navigation>
