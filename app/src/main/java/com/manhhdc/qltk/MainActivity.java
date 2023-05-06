@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.view.Menu;
 
 import com.google.android.material.navigation.NavigationView;
+import com.manhhdc.qltk.databinding.ActivityMainBinding;
 
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
