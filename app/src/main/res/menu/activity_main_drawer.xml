@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
@@ -61,4 +62,10 @@
             android:title="Tài Khoản"
             android:icon="@drawable/ic_taikhoan"/>
     </group>
+    <item
+        android:id="@+id/btnLogOut"
+        android:enabled="true"
+        android:icon="@drawable/baseline_logout_24"
+        android:title="Đăng Xuất"
+        android:visible="true" />
 </menu>
