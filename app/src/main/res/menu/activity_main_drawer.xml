@@ -6,45 +6,59 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/ic_home"
             android:title="@string/menu_home" />
         <item
             android:id="@+id/nav_tailieu"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/ic_tailieu"
             android:title="Tài Liệu" />
         <item
             android:id="@+id/nav_theloai"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Thể loại" />
+            android:icon="@drawable/ic_theloai"
+            android:title="Thể loại"
+            />
         <item
             android:id="@+id/nav_tacgia"
-            android:title="Tác Giả" />
+            android:title="Tác Giả"
+            android:icon="@drawable/ic_tacgia"/>
         <item
             android:id="@+id/nav_nxb"
-            android:title="Nhà Xuất Bản" />
+            android:title="Nhà Xuất Bản"
+            android:icon="@drawable/ic_nxb"
+            />
         <item
             android:id="@+id/nav_thuthu"
-            android:title="Thủ Thư" />
+            android:title="Thủ Thư"
+            android:icon="@drawable/ic_thuthu"/>
         <item
             android:id="@+id/nav_docgia"
-            android:title="Độc Giả" />
+            android:title="Độc Giả"
+            android:icon="@drawable/ic_docgia"/>
         <item
             android:id="@+id/nav_khoa"
-            android:title="Khoa" />
+            android:title="Khoa"
+            android:icon="@drawable/ic_phongban"
+            />
         <item
             android:id="@+id/nav_lop"
-            android:title="Lớp" />
+            android:title="Lớp"
+            android:icon="@drawable/ic_lop"
+            />
         <item
             android:id="@+id/nav_thedangky"
-            android:title="Thẻ Đăng Ký" />
+            android:title="Thẻ Đăng Ký"
+            android:icon="@drawable/ic_thedk"/>
         <item
             android:id="@+id/nav_phieumuon"
-            android:title="Phiếu Mượn" />
+            android:title="Phiếu Mượn"
+            android:icon="@drawable/ic_phieu"/>
         <item
             android:id="@+id/nav_vipham"
-            android:title="Vi Phạm" />
+            android:title="Vi Phạm"
+            android:icon="@drawable/ic_xulyvp"/>
         <item
             android:id="@+id/nav_taikhoan"
-            android:title="Tài Khoản" />
+            android:title="Tài Khoản"
+            android:icon="@drawable/ic_taikhoan"/>
     </group>
 </menu>
