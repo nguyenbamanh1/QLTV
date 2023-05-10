@@ -7,16 +7,16 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/ic_home"
-            android:title="@string/menu_home" />
+            android:title="@string/menu_home"
+            android:icon="@drawable/ic_home"/>
         <item
             android:id="@+id/nav_tailieu"
-            android:icon="@drawable/ic_tailieu"
-            android:title="Tài Liệu" />
+            android:title="Tài Liệu"
+            android:icon="@drawable/ic_tailieu"/>
         <item
             android:id="@+id/nav_theloai"
-            android:icon="@drawable/ic_theloai"
             android:title="Thể loại"
+            android:icon="@drawable/ic_theloai"
             />
         <item
             android:id="@+id/nav_tacgia"
