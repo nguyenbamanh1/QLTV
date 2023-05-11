@@ -7,58 +7,77 @@
 
     <TextView
         android:id="@+id/textView27"
-        android:layout_width="110dp"
+        android:layout_width="115dp"
         android:layout_height="28dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:text="Hình thức xử lý:"
+        android:text="Họ tên:"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView28"
-        android:layout_width="88dp"
+        android:layout_width="115dp"
         android:layout_height="28dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="9dp"
-        android:text="Ngày xử lý:"
+        android:layout_marginTop="8dp"
+        android:text="Nguyên nhân:"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView27" />
 
     <TextView
         android:id="@+id/textView29"
-        android:layout_width="110dp"
+        android:layout_width="115dp"
         android:layout_height="28dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="11dp"
-        android:text="Ngày mở thẻ:"
+        android:layout_marginTop="8dp"
+        android:text="Hình thức xử lý:"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView28" />
 
     <TextView
-        android:id="@+id/txtngaymothe"
+        android:id="@+id/textView58"
+        android:layout_width="115dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Tiền phạt:"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView29" />
+
+    <TextView
+        android:id="@+id/txthinhthuc"
         android:layout_width="240dp"
         android:layout_height="28dp"
-        android:layout_marginTop="11dp"
+        android:layout_marginTop="8dp"
         android:textSize="16sp"
         app:layout_constraintStart_toEndOf="@+id/textView29"
-        app:layout_constraintTop_toBottomOf="@+id/txtngayxl" />
+        app:layout_constraintTop_toBottomOf="@+id/txtnguyennhan" />
 
     <TextView
-        android:id="@+id/txtngayxl"
+        android:id="@+id/txttienphat"
         android:layout_width="240dp"
         android:layout_height="28dp"
-        android:layout_marginStart="22dp"
-        android:layout_marginTop="9dp"
+        android:layout_marginTop="8dp"
         android:textSize="16sp"
-        app:layout_constraintStart_toEndOf="@+id/textView28"
-        app:layout_constraintTop_toBottomOf="@+id/txthinhthucxl" />
+        app:layout_constraintStart_toEndOf="@+id/textView58"
+        app:layout_constraintTop_toBottomOf="@+id/txthinhthuc" />
 
     <TextView
-        android:id="@+id/txthinhthucxl"
+        android:id="@+id/txtnguyennhan"
+        android:layout_width="240dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="8dp"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/textView28"
+        app:layout_constraintTop_toBottomOf="@+id/txthoten" />
+
+    <TextView
+        android:id="@+id/txthoten"
         android:layout_width="240dp"
         android:layout_height="28dp"
         android:layout_marginTop="16dp"

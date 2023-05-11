@@ -115,10 +115,10 @@
             android:id="@+id/textView42"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="  Ngày mượn" />
+            android:text="  Hình thức mượn" />
 
         <EditText
-            android:id="@+id/edtngaymuon"
+            android:id="@+id/edthinhthuc"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:background="@drawable/custom_edt"
@@ -135,6 +135,25 @@
             android:id="@+id/textView44"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:text="  Ngày mượn" />
+
+        <EditText
+            android:id="@+id/edtngaymuon"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/custom_edt"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/te"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:text="  Ngày trả" />
 
         <EditText
@@ -145,7 +164,6 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:textSize="16sp" />
-
         <TextView
             android:id="@+id/textView47"
             android:layout_width="match_parent"
@@ -178,6 +196,25 @@
 
         <EditText
             android:id="@+id/edtgia"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/custom_edt"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/textView48"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView49"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  Ghi chú" />
+
+        <EditText
+            android:id="@+id/edtghichu"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:background="@drawable/custom_edt"

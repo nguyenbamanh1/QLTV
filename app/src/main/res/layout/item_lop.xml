@@ -21,7 +21,7 @@
         android:layout_width="60dp"
         android:layout_height="28dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="9dp"
+        android:layout_marginTop="8dp"
         android:text="Tên lớp:"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -40,7 +40,7 @@
         android:id="@+id/txttenlop"
         android:layout_width="250dp"
         android:layout_height="28dp"
-        android:layout_marginTop="9dp"
+        android:layout_marginTop="8dp"
         android:textSize="16sp"
         app:layout_constraintStart_toEndOf="@+id/textView5"
         app:layout_constraintTop_toBottomOf="@+id/txtmalop" />

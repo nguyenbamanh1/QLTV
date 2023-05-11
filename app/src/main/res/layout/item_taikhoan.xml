@@ -21,7 +21,7 @@
         android:layout_width="82dp"
         android:layout_height="28dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="9dp"
+        android:layout_marginTop="8dp"
         android:text="Mật khẩu:"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -31,7 +31,7 @@
         android:id="@+id/txtmatkhau"
         android:layout_width="250dp"
         android:layout_height="28dp"
-        android:layout_marginTop="9dp"
+        android:layout_marginTop="8dp"
         android:textSize="16sp"
         app:layout_constraintStart_toEndOf="@+id/textView31"
         app:layout_constraintTop_toBottomOf="@+id/txttaikhoan" />
