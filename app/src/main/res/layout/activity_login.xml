@@ -4,19 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/logo2"
+    android:scrollbarAlwaysDrawVerticalTrack="false"
     tools:context=".LoginActivity">
 
     <EditText
         android:id="@+id/edtUserName"
         android:layout_width="350dp"
         android:layout_height="50dp"
-        android:layout_marginStart="22dp"
-        android:layout_marginTop="141dp"
-        android:layout_marginEnd="22dp"
+        android:layout_marginTop="228dp"
         android:ems="10"
         android:hint="UserName"
+        android:background="@drawable/custom_edt"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -24,23 +26,40 @@
         android:id="@+id/edtPassword"
         android:layout_width="350dp"
         android:layout_height="50dp"
-        android:layout_marginStart="22dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="22dp"
+        android:layout_marginTop="304dp"
         android:ems="10"
-        android:inputType="textPassword"
         android:hint="Password"
+        android:background="@drawable/custom_edt"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        android:fontFamily="sans-serif-black"
+        android:text="QUẢN LÝ THƯ VIỆN"
+        android:textSize="40dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edtUserName" />
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="35dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="159dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="158dp"
+        android:background="@drawable/custom_button"
         android:text="Login"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edtPassword" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
