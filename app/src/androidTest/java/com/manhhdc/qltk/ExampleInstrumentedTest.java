@@ -3,17 +3,18 @@ package com.manhhdc.qltk;
 import android.content.Context;
 import android.util.Log;
 
-import androidx.test.platform.app.InstrumentationRegistry;
-import androidx.test.ext.junit.runners.AndroidJUnit4;
-
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
 import static org.junit.Assert.*;
 
+import androidx.test.ext.junit.runners.AndroidJUnit4;
+
 import com.manhhdc.qltk.Moduls.DocGia;
 import com.manhhdc.qltk.service.ApiService;
 import com.manhhdc.qltk.service.DocGiaService;
+
+import java.util.ArrayList;
 
 import retrofit2.Call;
 import retrofit2.Response;
@@ -29,14 +30,12 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         DocGiaService service =  ApiService.createService(DocGiaService.class);
         try{
-            Call<DocGia> docgia = service.get(402);
-            Response<DocGia> response = docgia.execute();
-            DocGia user = response.body();
-            if(user != null){
-                Log.i("ok",user.TINHTRANG);
-            }else{
-                Log.i("err","Null");
-            }
+            Call<ArrayList<DocGia>> docgia = service.getAll();
+            Response<ArrayList<DocGia>> response = docgia.execute();
+            ArrayList<DocGia> docGias = response.body();
+
+            Log.i("logooo", docGias.size() + "");
+
         }catch (Exception ex){
             ex.printStackTrace();
         }

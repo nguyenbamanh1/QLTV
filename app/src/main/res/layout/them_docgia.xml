@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/edtngay"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -18,7 +19,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/textView32"
+            android:id="@+id/titleView"
             android:layout_width="match_parent"
             android:layout_height="35dp"
             android:text="THÊM ĐỘC GIẢ"
@@ -83,8 +84,7 @@
             android:layout_height="40dp"
             android:background="@drawable/custom_edt"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:textSize="16sp" />
+            android:inputType="date" />
 
         <TextView
             android:id="@+id/textView41"
@@ -103,8 +103,7 @@
             android:layout_height="40dp"
             android:background="@drawable/custom_edt"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:textSize="16sp" />
+            android:inputType="date" />
 
         <TextView
             android:id="@+id/textView43"
@@ -125,6 +124,7 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:textSize="16sp" />
+
     </LinearLayout>
 
     <androidx.appcompat.widget.AppCompatButton

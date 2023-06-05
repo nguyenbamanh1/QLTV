@@ -21,4 +21,14 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string-array name="gioitinh">
+        <item>Nam</item>
+        <item>Nữ</item>
+        <item>Khác</item>
+    </string-array>
+    <string-array name="chucvu">
+        <item>Giáo Viên</item>
+        <item>Sinh Viên</item>
+        <item>Nhân Viên</item>
+    </string-array>
 </resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Hiệu ứng khi view được chọn -->
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="#B3CADF"/> <!-- Màu nền khi được chọn -->
+            <stroke
+                android:width="1dp"
+                android:color="#9F9F9F"/> <!-- Màu đường viền khi được chọn -->
+            <corners android:radius="4dp"/>
+        </shape>
+    </item>
+    <!-- Hiệu ứng mặc định -->
+    <item>
+        <shape>
+            <solid android:color="#BFCEDC"/> <!-- Màu nền mặc định -->
+            <stroke
+                android:width="1dp"
+                android:color="#ffffff"/> <!-- Màu đường viền mặc định -->
+            <corners android:radius="4dp"/>
+        </shape>
+    </item>
+</selector>
