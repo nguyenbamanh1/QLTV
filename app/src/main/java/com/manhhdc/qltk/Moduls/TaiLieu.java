@@ -4,6 +4,7 @@ public class TaiLieu {
     public String MATL;
     public String TENTL;
     public String MATHELOAI;
+    public String THELOAI;
     public String MATG;
     public String MANXB;
     public String NAMXB;

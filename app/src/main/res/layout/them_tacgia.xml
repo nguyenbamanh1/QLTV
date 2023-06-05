@@ -18,13 +18,14 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/textView32"
+            android:id="@+id/titleView"
             android:layout_width="match_parent"
             android:layout_height="35dp"
             android:text="THÊM TÁC GIẢ"
             android:textAlignment="center"
             android:textSize="24sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            />
 
         <TextView
             android:id="@+id/textView34"
@@ -44,7 +45,6 @@
             android:background="@drawable/custom_edt"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="jhflạdfhsdj"
             android:textSize="16sp" />
 
         <TextView
@@ -78,14 +78,12 @@
             android:layout_height="wrap_content"
             android:text="  Giới tính" />
 
-        <EditText
+
+        <Spinner
             android:id="@+id/edtgioitinhtg"
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            android:background="@drawable/custom_edt"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:textSize="16sp" />
+            android:background="@drawable/custom_edt" />
 
         <TextView
             android:id="@+id/textView41"
@@ -113,7 +111,7 @@
         android:layout_width="106dp"
         android:layout_height="39dp"
         android:layout_marginStart="60dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="214dp"
         android:background="@drawable/custom_button"
         android:text="OK"
         app:layout_constraintStart_toStartOf="parent"
@@ -123,7 +121,7 @@
         android:id="@+id/btnQuayVe"
         android:layout_width="106dp"
         android:layout_height="39dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="214dp"
         android:layout_marginEnd="60dp"
         android:background="@drawable/custom_button"
         android:text="Quay Về"

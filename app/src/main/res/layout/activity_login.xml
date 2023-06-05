@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/logo2"
     android:scrollbarAlwaysDrawVerticalTrack="false"
+
     tools:context=".LoginActivity">
 
     <EditText

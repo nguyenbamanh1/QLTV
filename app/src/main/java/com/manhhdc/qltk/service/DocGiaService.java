@@ -1,12 +1,16 @@
 package com.manhhdc.qltk.service;
 
 import com.manhhdc.qltk.Moduls.DocGia;
+import com.manhhdc.qltk.Moduls.Message;
 
 import java.util.ArrayList;
 
 import retrofit2.Call;
+import retrofit2.http.Body;
+import retrofit2.http.DELETE;
 import retrofit2.http.GET;
 import retrofit2.http.POST;
+import retrofit2.http.PUT;
 import retrofit2.http.Path;
 
 public interface DocGiaService {
@@ -14,14 +18,14 @@ public interface DocGiaService {
     public Call<ArrayList<DocGia>> getAll();
 
     @GET("api/docgia/get/{id}")
-    public Call<DocGia> get(@Path("id") int id);
+    public Call<DocGia> get(@Path("id") String id);
 
-    @POST("api/docgia/create/{doc}")
-    public void create(@Path("doc") DocGia doc);
+    @POST("api/docgia/create/")
+    public Call<Message>  create(@Body DocGia doc);
 
-    @POST("api/docgia/delete/{id}")
-    public void delete(@Path("id") int id);
+    @DELETE("api/docgia/delete/{id}")
+    public Call<Message>  delete(@Path("id") String id);
 
-    @POST("api/docgia/update/{doc}")
-    public void update(@Path("doc") DocGia doc);
+    @PUT("api/docgia/update/")
+    public Call<Message> update(@Body DocGia doc);
 }

@@ -6,4 +6,7 @@ public class DocGia {
     public String NGAYDK;
     public String HSD ;
     public String TINHTRANG;
+    public TheDangKy theDangKy;
+    public String HOTEN;
+    public byte GT;
 }

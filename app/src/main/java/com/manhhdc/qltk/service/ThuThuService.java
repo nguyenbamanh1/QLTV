@@ -1,12 +1,16 @@
 package com.manhhdc.qltk.service;
 
+import com.manhhdc.qltk.Moduls.Message;
 import com.manhhdc.qltk.Moduls.ThuThu;
 
 import java.util.ArrayList;
 
 import retrofit2.Call;
+import retrofit2.http.Body;
+import retrofit2.http.DELETE;
 import retrofit2.http.GET;
 import retrofit2.http.POST;
+import retrofit2.http.PUT;
 import retrofit2.http.Path;
 
 public interface ThuThuService {
@@ -14,14 +18,14 @@ public interface ThuThuService {
     public Call<ArrayList<ThuThu>> getAll();
 
     @GET("api/thuthu/get/{id}")
-    public Call<ThuThu> get(@Path("id") int id);
+    public Call<ThuThu> get(@Path("id") String id);
 
-    @POST("api/thuthu/create/{doc}")
-    public void create(@Path("doc") ThuThu doc);
+    @POST("api/thuthu/create/")
+    public Call<Message> create(@Body ThuThu doc);
 
-    @POST("api/thuthu/delete/{id}")
-    public void delete(@Path("id") int id);
+    @DELETE("api/thuthu/delete/{id}")
+    public Call<Message> delete(@Path("id") String id);
 
-    @POST("api/thuthu/update/{doc}")
-    public void update(@Path("doc") ThuThu doc);
+    @PUT("api/thuthu/update/")
+    public Call<Message> update(@Body ThuThu doc);
 }

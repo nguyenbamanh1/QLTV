@@ -1,13 +1,17 @@
 package com.manhhdc.qltk.service;
 
 import com.manhhdc.qltk.Moduls.Entity;
+import com.manhhdc.qltk.Moduls.Message;
 import com.manhhdc.qltk.Moduls.TaiKhoan;
 
 import java.util.ArrayList;
 
 import retrofit2.Call;
+import retrofit2.http.Body;
+import retrofit2.http.DELETE;
 import retrofit2.http.GET;
 import retrofit2.http.POST;
+import retrofit2.http.PUT;
 import retrofit2.http.Path;
 
 public interface TaiKhoanService {
@@ -15,17 +19,17 @@ public interface TaiKhoanService {
     public Call<ArrayList<TaiKhoan>> getAll();
 
     @GET("api/taikhoan/get/{id}")
-    public Call<TaiKhoan> get(@Path("id") int id);
+    public Call<TaiKhoan> get(@Path("id") String id);
 
-    @POST("api/taikhoan/create/{doc}")
-    public void create(@Path("doc") TaiKhoan doc);
+    @POST("api/taikhoan/create/")
+    public Call<Message> create(@Body TaiKhoan doc);
 
-    @POST("api/taikhoan/delete/{id}")
-    public void delete(@Path("id") int id);
+    @DELETE("api/taikhoan/delete/{id}")
+    public Call<Message> delete(@Path("id") String id);
 
-    @POST("api/taikhoan/update/{doc}")
-    public void update(@Path("doc") TaiKhoan doc);
+    @PUT("api/taikhoan/update/")
+    public Call<Message> update(@Body TaiKhoan doc);
 
-    @POST("api/taikhoan/login/{doc}")
-    public void login(@Path("doc") TaiKhoan doc);
+    @POST("api/taikhoan/login/")
+    public Call<Message> login(@Body TaiKhoan doc);
 }

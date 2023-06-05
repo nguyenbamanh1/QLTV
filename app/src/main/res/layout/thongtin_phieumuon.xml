@@ -18,7 +18,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/textView32"
+            android:id="@+id/titleView"
             android:layout_width="match_parent"
             android:layout_height="35dp"
             android:text="THÔNG TIN PHIẾU MƯỢN"

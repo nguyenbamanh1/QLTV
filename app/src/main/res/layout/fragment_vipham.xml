@@ -8,7 +8,8 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:id="@+id/linnerLayout">
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/btnAddViPham"
@@ -23,8 +24,10 @@
 
         <ListView
             android:id="@+id/lvVP"
-            android:layout_width="409dp"
-            android:layout_height="651dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="2dp"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
